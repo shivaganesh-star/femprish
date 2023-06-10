@@ -1,0 +1,131 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: rgb(255, 215, 186);
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  h1 {
+    text-align: center;
+  }
+  ul{
+    text-align: center;
+  }
+  h2 , p{
+    color: black;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul li a:hover {
+    color: #666;
+  }
+  div{
+      text-align: center;
+    }
+    .name{
+        text-align: center;
+        height: 75px;
+    }
+    .email{
+        height: 50px;
+        list-style: none;
+        margin-bottom: form label;
+    }
+  main {
+    padding: 20px;
+  }  
+  .hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    margin-top: 0;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  /* styles.css */
+/* ... existing styles ... */
+
+form label {
+    display: block;
+    margin-bottom: 0.5px;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+  }
+  .hero {
+    background-image: url('path/to/your/image.jpg');
+    /* additional CSS properties for positioning, size, etc. */
+  
+  }
+  .image:hover {
+    transform: scale(1.2);
+  }
+  
+  .image{
+    width: 300px;
+    height: 300px;
+  }
+  .card:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ccc;
+  }
+  .submit:hover {
+    background-color: red;
+    color: rgb(255,255, 255);
+  }
+#name:hover{
+    background-color: rgb(255, 215, 186);
+}
+#email:hover{
+    background-color: rgb(255, 215, 186);
+} 
+#message:hover{
+    background-color: rgb(255, 215, 186);
+}
